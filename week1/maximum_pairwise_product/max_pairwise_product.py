@@ -19,4 +19,3 @@ if __name__ == '__main__':
     input_numbers = list(map(int, input().split()))
     print(max_pairwise_product(input_numbers))
 
-    
