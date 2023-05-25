@@ -1,4 +1,4 @@
-import pdb
+# import pdb
 def max_pairwise_product(numbers):
     n = len(numbers)
     max_index1 = -1
