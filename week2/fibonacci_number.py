@@ -7,7 +7,7 @@ def fibonacci_number(n):
     for _ in range(n-1):
         tmp = previous
         previous =  current
-        current = (tmp + current) % 10
+        current = (tmp + current)
     return current
 
 if __name__ == "__main__":
