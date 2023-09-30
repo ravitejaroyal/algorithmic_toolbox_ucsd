@@ -23,7 +23,8 @@ class Solution:
 
 def main():
     s = Solution()
-    box_types = [[5,10],[2,5],[4,7],[3,9]]
+    # box_types = [[5,10],[2,5],[4,7],[3,9]]
+    box_types = [['5','10'],['2','5'],['4','7'],['3','9']]
     truck_size = 10
     print(s.maximum_units(box_types, truck_size))
 
