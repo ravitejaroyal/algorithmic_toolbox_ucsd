@@ -1,10 +1,7 @@
 from itertools import permutations
 
 def is_max(number, max_number):
-    if number >= str(max_number) or number[0] >= str(max_number[0]):
-        return True
-    else:
-        return False
+    return int(max_number + number) <= int(number + max_number)
 
 def largest_number(numbers):
     largest = ''
