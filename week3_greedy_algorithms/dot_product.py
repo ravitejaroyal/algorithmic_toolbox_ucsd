@@ -13,4 +13,4 @@ if __name__ == '__main__':
     prices = list(map(int, input().split()))
     clicks = list(map(int, input().split()))
     assert len(prices) == len(clicks) == n
-    max_dot_product(prices, clicks)
+    print(max_dot_product(prices, clicks))
