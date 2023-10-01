@@ -1,7 +1,7 @@
 from itertools import permutations
 
 def is_max(number, max_number):
-    if number >= str(max_number) and number[0] >= str(max_number[0]):
+    if number >= str(max_number) or number[0] >= str(max_number[0]):
         return True
     else:
         return False
